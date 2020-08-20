@@ -7,10 +7,6 @@ let task = {};
 let textTitle = title.value.trim();
 let textDescription = description.value.trim();
 
-/* const saveTasks = () => {
-  window.localStorage.setItem('tasks', JSON.stringify(todoItemsArray));
-}; */
-
 const addTasksInTodo = () => {
   task = {
     textTitle,
@@ -19,7 +15,6 @@ const addTasksInTodo = () => {
     id: Date.now(),
   };
   todoItemsArray.push(task);
-  // saveTasks();
 };
 
 const renderTask = (newTask) => {
@@ -31,30 +26,6 @@ const renderTask = (newTask) => {
       <button class="todo-task-delete-button  delete-task" type="button">Remove</button>
     </li>`);
 };
-
-/* const markTaskAsDoneOnLoad = (key) => {
-  const item = document.querySelector(`[data-key='${key}']`);
-  item.classList.add('done');
-  item.parentElement.appendChild(item);
-}; */
-
-// const loadTasks = () => JSON.parse(window.localStorage.getItem('tasks'));
-
-/* const renderTaskOnLoad = (currentTask) => {
-  renderTask(currentTask);
-  if (currentTask.checked === true) markTaskAsDoneOnLoad(currentTask.id);
-}; */
-
-/* const loadFromStorage = () => {
-  todoItemsArray = loadTasks();
-  if (todoItemsArray === null) {
-    todoItemsArray = [];
-  } else {
-    todoItemsArray.map((item) => renderTaskOnLoad(item));
-  }
-}; */
-
-// loadFromStorage();
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -79,14 +50,12 @@ const toggleTaskStatus = (key) => {
   } else {
     item.classList.remove('done');
   }
-  // saveTasks();
 };
 
 const deleteTask = (key) => {
   const item = document.querySelector(`[data-key='${key}']`);
   todoItemsArray.splice(todoItemsArray.indexOf(item), 1);
   item.remove();
-  // saveTasks();
 };
 
 list.addEventListener('click', (event) => {

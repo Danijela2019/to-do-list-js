@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>&lt;/JavaScript&gt;ToDoList</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./style/todo.css">
+  <script defer src="./js/todo.js"></script>
+</head>
+<body>
+  <main class="main">
+    <section class="form-card">
+      <h1 class="form-card-header">Register new todo</h1>
+      <form id="task"action="./todo.js">
+        <label for="task-title">Title:</label><br>
+        <input class="form-card-input" type="text" id="task-title" name="task-title"><br>
+        <label for="task-description">Description:</label><br>
+        <input class="form-card-input"type="text" id="task-description" name="task-name"><br>
+        <input class="form-card-input-add-button button"type="submit" value="Add">
+      </form> 
+    </section>
+    <ul class="todo-card-list" id="todo-list"></ul>
+  
+  </main>
+</body>
+
+
+</html>
