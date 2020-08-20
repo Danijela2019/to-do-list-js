@@ -2,12 +2,12 @@
 
 This is a simple TO-DO app, a frontend application created using JavaScript with mobile first approach design.
 
-| ![Todo](Mobile.png) |
+| ![Todo](images/Mobile.png) |
 |:---:|
 | Mobile version |
 
 
-| ![Todo](Desktop.png) |
+| ![Todo](images/Desktop.png) |
 |:---:|
 | Desktop version |
 
