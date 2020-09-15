@@ -23,7 +23,9 @@ This is a simple TO-DO app, a frontend application created using JavaScript with
 - **Clone the repo: git@github.com:Danijela2019/to-do-list-js.git**
 - **Install packages: npm install**
 - **Run this command in your terminal 'npm run dev'**
-- **Open your browser at:[localhost](http://localhost:8080)**
+- **Open your browser at:http://localhost:8080**
+- **Proview available on Glitch [here](https://todo-javascript.glitch.me/) P.S.It takes approximately 1min for the app to start, please be patient**
+
 
 
 
