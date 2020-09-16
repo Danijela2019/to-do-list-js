@@ -2,15 +2,6 @@
 
 This is a simple TO-DO app, a frontend application created using JavaScript with mobile first approach design.
 
-| ![Todo](images/Mobile.png) |
-|:---:|
-| Mobile version |
-
-
-| ![Todo](images/Desktop.png) |
-|:---:|
-| Desktop version |
-
 ## Functionalities
 * Initially, the list of todo cards is empty.
 * When a new todo task is submitted from the form, a new todo card apears on the board.
