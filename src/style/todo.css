@@ -13,9 +13,8 @@ article, header,  section {
 }
 
 body { 
-   background-image: linear-gradient(to left, rgba(63, 56, 56, 0.5), rgba(0,0,0,0) 60%,
-    rgba(255,255,255,0) 40%, rgba(255, 255, 255, 0.781)), 
-    linear-gradient(to top right, rgb(147, 209, 229) 50%, rgb(26, 23, 23) 50%);
+   background-image: url( '../images/todo.jpg');
+   background-size: cover;
 }
   
 .main {
