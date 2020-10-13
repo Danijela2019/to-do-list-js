@@ -13,9 +13,9 @@ article, header,  section {
 }
 
 body { 
-   background-image: url( '../images/todo.jpg');
    background-size: cover;
-}
+   background-color: #282c3496;
+  }
   
 .main {
   display: flex;
